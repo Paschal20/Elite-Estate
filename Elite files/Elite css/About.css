@@ -15,6 +15,15 @@ body {
   align-items: center;
   padding: 10px;
 }
+.logoAndImage {
+  display: flex;
+  margin-left: 30px;
+}
+.logoAndImage img {
+  width: 30px;
+  color: red;
+  margin-right: 10px;
+}
 .lineAfterHeader {
   border: 1px solid rgb(243, 237, 237);
 }
@@ -123,8 +132,26 @@ body {
   font-weight: 400;
   color: #9ca3af;
 }
+.footerColumnIcons {
+  margin-top: 10px;
+}
+.footerColumnIcons img {
+  width: 20px;
+  margin-right: 10px;
+}
+.iconAndHeader {
+  display: flex;
+}
+.iconAndHeader img {
+  height: 27px;
+  margin-right: 10px;
+}
 .lineBottom {
   width: 95%;
   margin-left: 40px;
   border-color: #374151;
+}
+.heroPage {
+  display: flex;
+  flex-direction: row;
 }
