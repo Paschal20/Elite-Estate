@@ -1,0 +1,320 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  flex-direction: row;
+  font-family: poppins;
+}
+.leftSide {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightSide {
+  width: 50%;
+  height: 130%;
+  background-image: url("../Elite Icons/placeholder\ with\ gradient.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.rightSideDiv {
+  background-color: white;
+}
+.logo {
+  margin-top: 100px;
+  width: 40px;
+  margin-bottom: 20px;
+}
+.leftHeader {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+}
+.nameAndInputBox {
+  display: flex;
+  flex-direction: column;
+}
+.words {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+
+  margin-top: 30px;
+}
+.input-with-icon input {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 400px;
+  border-width: 0.3px;
+  border-color: rgb(231, 231, 231);
+  border-style: solid;
+}
+.passwords {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 12px;
+  background-color: white;
+  width: 420px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+.input-container i {
+  color: #888;
+  font-size: 16px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.input-container .eye-icon {
+  pointer-events: none; /* Makes the icon non-interactive */
+}
+.rememberMe {
+  align-self: flex-start;
+
+  margin-bottom: 20px;
+}
+.rememberMe label {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+}
+.signInButton {
+  color: white;
+  background-color: #ff3468;
+  width: 450px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.lineAndText {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.buttonHolder {
+  display: flex;
+}
+.buttonHolder button {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  width: 200px;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  border-style: solid;
+  border-width: 0.3px;
+  border-color: #ccc;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.buttonHolder button img {
+  width: 15px;
+  margin-right: 10px;
+}
+.actionText {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  align-self: center;
+  margin-bottom: 50px;
+}
+.actionText span {
+  color: #ff3468;
+}
+
+.text-box {
+  background-color: rgb(255, 255, 255); /* Semi-transparent white */
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.listWithIcon {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #292828;
+}
+.listWithIcon img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.h1 {
+  color: #ff3366;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.text-box p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.explore-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.explore-link::before {
+  content: "→";
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.smallText {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  width: 450px;
+  margin-bottom: 20px;
+}
+.dot {
+  width: 15px; /* Adjust size as needed */
+  height: 15px; /* Adjust size as needed */
+  background-color: blue;
+  border-radius: 50%; /* Make it a circle */
+  display: inline-block; /* Important for positioning within flow */
+}
+.dot2 {
+  width: 15px; /* Adjust size as needed */
+  height: 15px; /* Adjust size as needed */
+  background-color: white;
+  border-radius: 50%; /* Make it a circle */
+  display: inline-block; /* Important for positioning within flow */
+  border-style: solid;
+  border-width: 0.3px;
+  border-color: rgb(219, 217, 217);
+}
+.accountHolder {
+  display: flex;
+  flex-direction: column;
+}
+.accountCardHolder {
+  display: flex;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.accountHolderMain {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.accountHeader {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.comment {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.accountCard1,
+.accountCard2 {
+  width: 200px;
+}
+.accountCard1 {
+  margin-right: 10px;
+  border-style: solid;
+  border-color: #ff1e58;
+  border-radius: 5px;
+  border-width: 0.3px;
+  background-color: #fff4f6;
+}
+.accountCard2 {
+  border-color: #cecbcb;
+  border-style: solid;
+  border-width: 0.2px;
+  border-radius: 5px;
+}
+.dotAndTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.dot,
+.dot2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rememberMe span {
+  color: #ff1e58;
+}
+.lineAndText {
+  font-size: small;
+  color: grey;
+}
