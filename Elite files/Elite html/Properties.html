@@ -14,33 +14,17 @@
       </div>
       <div class="navHolder">
         <div class="nav">
-          <a
-            class="homePage"
-            href="https://kzmfwocbnmyz5s7tc6ew.lite.vusercontent.net/"
-            >Home</a
-          >
+          <a class="homePage" href="Home.html">Home</a>
         </div>
         <div class="nav">
-          <a
-            class="servicesPage"
-            href="https://kzmfwocbnmyz5s7tc6ew.lite.vusercontent.net/services"
-            >Services</a
-          >
+          <a class="servicesPage" href="Services.html">Services</a>
         </div>
         <div class="nav">Properties</div>
         <div class="nav">
-          <a
-            class="aboutPage"
-            href="https://kzmfwocbnmyz5s7tc6ew.lite.vusercontent.net/about"
-            >About</a
-          >
+          <a class="aboutPage" href="About.html">About</a>
         </div>
         <div class="nav">
-          <a
-            class="contactPage"
-            href="https://kzmfwocbnmyz5s7tc6ew.lite.vusercontent.net/contact"
-            >Contact</a
-          >
+          <a class="contactPage" href="Contact.html">Contact</a>
         </div>
       </div>
       <div class="buttonHolder">
@@ -61,182 +45,195 @@
       </div>
     </div>
     <hr class="lineAfterHeader" />
-    <div class="servicesHero">
-      <div class="servicesHeroHeader">Our Properties</div>
-      <div class="servicesHeroContent">
+    <div class="belowHeroText">
+      <div class="belowHeroHeader">Our <span>Properties</span></div>
+      <div class="belowHeroDescription">
         Explore our diverse portfolio of residential, commercial, and industrial
         properties across prime locations.
       </div>
     </div>
     <div class="inputHolder">
-      <input type="text" placeholder="Search properties..." />
-      <div class="typesList"></div>
-      <div class="statusList"></div>
-      <div class="filters"></div>
+      <div style="position: relative; display: inline-block">
+        <input
+          type="text"
+          placeholder="Search properties..."
+          style="padding-left: 35px"
+        />
+        <img
+          src="../Elite Icons/magnifier.png"
+          alt="Search"
+          style="
+            position: absolute;
+            left: 40px;
+            top: 50%;
+            transform: translateY(-100%);
+            width: 18px;
+            height: 18px;
+            pointer-events: none;
+          "
+        />
+      </div>
+      <div class="selectHolder">
+        <div class="typesList">
+          <select class="propertyList" name="property-type">
+            <option value="" disabled selected>All Types</option>
+            <option value="apartment">Residential</option>
+            <option value="house">Commercial</option>
+            <option value="condo">Industrial</option>
+            <option value="studio">Mixed Use</option>
+          </select>
+        </div>
+        <div class="statusList">
+          <select class="propertyList" name="property-type">
+            <option value="" disabled selected>All Status</option>
+            <option value="apartment">Residential</option>
+            <option value="house">Commercial</option>
+            <option value="condo">Industrial</option>
+            <option value="studio">Mixed Use</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="filters">More filters</div>
     </div>
-    <div class="propertiesCardHolder">
-      <div class="propertyCard">
-        <div class="cardImage">
-          <div class="leftStatus"></div>
-          <div class="rightStatus"></div>
+    <hr class="custom-line" />
+
+    <div class="belowHero3">
+      <div class="belowHero3Header">Featured Properties</div>
+      <div class="belowHero3Description">
+        Explore our selection of premium properties currently under our
+        management.
+      </div>
+      <div class="belowHero3CardHolder">
+        <div class="belowHero3Card">
+          <div class="belowHero3ImageHolder">
+            <img src="../Elite Icons/placeholder (1).svg" />
+          </div>
+          <div class="belowHero3CardHeader">Luxury Downtown Apartment</div>
+          <div class="locationAndIcon">
+            <img src="../Elite Icons/Location Icon.png" alt="Location Icon" />
+            <div class="belowHero3Location">Financial District</div>
+          </div>
+
+          <div class="belowHero3PriceandSize">
+            <div class="belowHero3Price">$2,500/month</div>
+            <div class="belowHero3SizeHolder">
+              <div class="belowHero3Size">2 bed</div>
+              <div class="belowHero3Size">2 bath</div>
+              <div class="belowHero3Size">1,200 sqtf</div>
+            </div>
+          </div>
+          <button class="belowHero3Button">View Details</button>
         </div>
-        <div class="cardDetails">
-          <div class="cardHeader"></div>
-          <div class="cardLocation"></div>
-          <div class="iconAndTextHolder">
-            <div></div>
-            <div></div>
-            <div></div>
+
+        <div class="belowHero3Card">
+          <div class="belowHero3ImageHolder">
+            <img src="../Elite Icons/placeholder (1).svg" />
           </div>
-          <div class="spaceHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div class="belowHero3CardHeader">Modern Office Space</div>
+          <div class="locationAndIcon">
+            <img src="../Elite Icons/Location Icon.png" alt="Location Icon" />
+            <div class="belowHero3Location">Tech Hub</div>
           </div>
-          <div class="priceAndButtonHolder">
-            <div class="price"></div>
-            <button>View Details</button>
+
+          <div class="belowHero3PriceandSize">
+            <div class="belowHero3Price">$4,800/month</div>
+            <div class="belowHero3SizeHolder">
+              <div class="belowHero3Size">Open floor</div>
+              <div class="belowHero3Size">3,000 sqtf</div>
+              <div class="belowHero3Size">5 offices</div>
+            </div>
           </div>
+          <button class="belowHero3Button">View Details</button>
+        </div>
+
+        <div class="belowHero3Card">
+          <div class="belowHero3ImageHolder">
+            <img src="../Elite Icons/placeholder (1).svg" />
+          </div>
+          <div class="belowHero3CardHeader">Retail Storefront</div>
+          <div class="locationAndIcon">
+            <img src="../Elite Icons/Location Icon.png" alt="Location Icon" />
+            <div class="belowHero3Location">Shopping District</div>
+          </div>
+
+          <div class="belowHero3PriceandSize">
+            <div class="belowHero3Price">$3,200/month</div>
+            <div class="belowHero3SizeHolder">
+              <div class="belowHero3Size">1,800 sqtf</div>
+              <div class="belowHero3Size">High foot traffic</div>
+            </div>
+          </div>
+          <button class="belowHero3Button">View Details</button>
+        </div>
+        <div class="belowHero3Card">
+          <div class="belowHero3ImageHolder">
+            <img src="../Elite Icons/placeholder (1).svg" />
+          </div>
+          <div class="belowHero3CardHeader">Luxury Downtown Apartment</div>
+          <div class="locationAndIcon">
+            <img src="../Elite Icons/Location Icon.png" alt="Location Icon" />
+            <div class="belowHero3Location">Financial District</div>
+          </div>
+
+          <div class="belowHero3PriceandSize">
+            <div class="belowHero3Price">$2,500/month</div>
+            <div class="belowHero3SizeHolder">
+              <div class="belowHero3Size">2 bed</div>
+              <div class="belowHero3Size">2 bath</div>
+              <div class="belowHero3Size">1,200 sqtf</div>
+            </div>
+          </div>
+          <button class="belowHero3Button">View Details</button>
+        </div>
+
+        <div class="belowHero3Card">
+          <div class="belowHero3ImageHolder">
+            <img src="../Elite Icons/placeholder (1).svg" />
+          </div>
+          <div class="belowHero3CardHeader">Modern Office Space</div>
+          <div class="locationAndIcon">
+            <img src="../Elite Icons/Location Icon.png" alt="Location Icon" />
+            <div class="belowHero3Location">Tech Hub</div>
+          </div>
+
+          <div class="belowHero3PriceandSize">
+            <div class="belowHero3Price">$4,800/month</div>
+            <div class="belowHero3SizeHolder">
+              <div class="belowHero3Size">Open floor</div>
+              <div class="belowHero3Size">3,000 sqtf</div>
+              <div class="belowHero3Size">5 offices</div>
+            </div>
+          </div>
+          <button class="belowHero3Button">View Details</button>
+        </div>
+
+        <div class="belowHero3Card">
+          <div class="belowHero3ImageHolder">
+            <img src="../Elite Icons/placeholder (1).svg" />
+          </div>
+          <div class="belowHero3CardHeader">Retail Storefront</div>
+          <div class="locationAndIcon">
+            <img src="../Elite Icons/Location Icon.png" alt="Location Icon" />
+            <div class="belowHero3Location">Shopping District</div>
+          </div>
+
+          <div class="belowHero3PriceandSize">
+            <div class="belowHero3Price">$3,200/month</div>
+            <div class="belowHero3SizeHolder">
+              <div class="belowHero3Size">1,800 sqtf</div>
+              <div class="belowHero3Size">High foot traffic</div>
+            </div>
+          </div>
+          <button class="belowHero3Button">View Details</button>
         </div>
       </div>
-      <div class="propertyCard">
-        <div class="cardImage">
-          <div class="leftStatus"></div>
-          <div class="rightStatus"></div>
-        </div>
-        <div class="cardDetails">
-          <div class="cardHeader"></div>
-          <div class="cardLocation"></div>
-          <div class="iconAndTextHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="spaceHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="priceAndButtonHolder">
-            <div class="price"></div>
-            <button>View Details</button>
-          </div>
-        </div>
-      </div>
-      <div class="propertyCard">
-        <div class="cardImage">
-          <div class="leftStatus"></div>
-          <div class="rightStatus"></div>
-        </div>
-        <div class="cardDetails">
-          <div class="cardHeader"></div>
-          <div class="cardLocation"></div>
-          <div class="iconAndTextHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="spaceHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="priceAndButtonHolder">
-            <div class="price"></div>
-            <button>View Details</button>
-          </div>
-        </div>
-      </div>
-      <div class="propertyCard">
-        <div class="cardImage">
-          <div class="leftStatus"></div>
-          <div class="rightStatus"></div>
-        </div>
-        <div class="cardDetails">
-          <div class="cardHeader"></div>
-          <div class="cardLocation"></div>
-          <div class="iconAndTextHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="spaceHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="priceAndButtonHolder">
-            <div class="price"></div>
-            <button>View Details</button>
-          </div>
-        </div>
-      </div>
-      <div class="propertyCard">
-        <div class="cardImage">
-          <div class="leftStatus"></div>
-          <div class="rightStatus"></div>
-        </div>
-        <div class="cardDetails">
-          <div class="cardHeader"></div>
-          <div class="cardLocation"></div>
-          <div class="iconAndTextHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="spaceHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="priceAndButtonHolder">
-            <div class="price"></div>
-            <button>View Details</button>
-          </div>
-        </div>
-      </div>
-      <div class="propertyCard">
-        <div class="cardImage">
-          <div class="leftStatus"></div>
-          <div class="rightStatus"></div>
-        </div>
-        <div class="cardDetails">
-          <div class="cardHeader"></div>
-          <div class="cardLocation"></div>
-          <div class="iconAndTextHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="spaceHolder">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="priceAndButtonHolder">
-            <div class="price"></div>
-            <button>View Details</button>
-          </div>
-        </div>
-      </div>
+      <button class="belowHero3PropertiesButton">
+        <p>View All Properties</p>
+        <img class="arrowImage" src="../Elite Icons/Black Arrow.png" />
+      </button>
     </div>
-    <div class="abovePropertiesFooter">
-      <div class="abovePropertiesFooterHeader">Have a Property to Manage?</div>
-      <div class="abovePropertiesFooterContent">
-        Let us help you maximize your property's potential with our
-        comprehensive management services.
-      </div>
-      <div class="abovePropertiesFooterButtonHolder">
-        <button class="abovePropertiesFooterButton">Get Free Assessment</button>
-        <button class="abovePropertiesFooterButton">Contact Us</button>
-      </div>
-    </div>
+
     <div class="footer">
       <div class="footerColumnHolder">
         <div class="footerColumn1">
