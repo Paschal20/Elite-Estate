@@ -151,3 +151,241 @@ body {
   margin-left: 40px;
   border-color: #374151;
 }
+.belowHero2 {
+  background-color: #ff1e58;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.belowHero2Header {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  line-height: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 700px;
+  text-align: center;
+}
+.belowHero2Description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: white;
+  width: 700px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.belowHero2Button {
+  background-color: white;
+  border: none;
+  color: #ff1e58;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 230px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.belowHeroText {
+  text-align: center;
+  background-color: #fffaec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.belowHeroHeader {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.belowHeroHeader span {
+  color: #ff1e58;
+}
+.belowHeroDescription {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  margin-bottom: 30px;
+  margin-bottom: 50px;
+  width: 800px;
+}
+
+.inputHolder {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.inputHolder input {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(31, 31, 31);
+  width: 400px;
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+  border-color: #9ca3af;
+  border-style: solid;
+  border-width: 0.2px;
+  border-radius: 5px;
+}
+.selectHolder {
+  display: flex;
+  margin-right: 400px;
+}
+.propertyList {
+  width: 92.5%;
+  align-self: center;
+  border-color: rgb(235, 231, 231);
+  border-width: 0.2px;
+  border-style: solid;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.filters {
+  border-style: solid;
+  border-color: rgb(223, 218, 218);
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+  padding-left: 10px;
+  border-width: 0.2px;
+  border-radius: 5px;
+}
+.belowHero3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.belowHero3Header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  text-align: center;
+}
+.belowHero3Description {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.belowHero3CardHolder {
+  display: flex;
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
+.belowHero3Card {
+  width: 30%;
+  background-color: white;
+  margin-right: 30px;
+  height: 450px;
+  border-radius: 10px;
+  border: solid;
+  border-color: rgb(228, 223, 223);
+  border-width: 0.3px;
+}
+.belowHero3ImageHolder {
+  height: 250px;
+  width: 100%;
+}
+.belowHero3ImageHolder img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.belowHero3CardHeader {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.locationAndIcon {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.locationAndIcon img {
+  width: 15px;
+  height: 15px;
+}
+.belowHero3Location {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #737373;
+}
+.belowHero3PriceandSize {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.belowHero3SizeHolder {
+  display: flex;
+}
+.belowHero3Size {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(115, 115, 115);
+}
+.belowHero3Price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgb(255, 30, 88);
+}
+.belowHero3Button {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background-color: #ff1e58;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-left: 24px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.belowHero3PropertiesButton {
+  display: flex;
+  margin-top: 50px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  background-color: white;
+  border-color: rgb(230, 226, 226);
+  border-width: 0.3px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.belowHero3PropertiesButton img {
+  margin-left: 5px;
+  height: 20px;
+}

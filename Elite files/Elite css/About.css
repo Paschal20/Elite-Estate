@@ -155,3 +155,220 @@ body {
   display: flex;
   flex-direction: row;
 }
+.heroPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.leftHero {
+  width: 45%;
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+.rightHero {
+  background-color: grey;
+  width: 45%;
+  height: 400px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 90px;
+  background-image: url("../Elite Icons/placeholder (1).svg");
+  background-size: cover; /* or 'contain' */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heroText {
+  font-size: 49px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+}
+.heroText span {
+  color: #ff1e58;
+}
+.heroDescription {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  margin-bottom: 20px;
+}
+.exploreButton {
+  background-color: #ff1e58;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.consultationButton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 10px 30px;
+  border-style: solid;
+  border-color: rgb(226, 222, 222);
+  border-width: 0.3px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.belowHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.belowHeroCard img {
+  width: 30px;
+  margin: 20px;
+}
+.belowHeroText {
+  text-align: center;
+}
+.belowHeroHeader {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.belowHeroDescription {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  margin-bottom: 30px;
+}
+.belowHeroCardHolder {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 33px;
+}
+.missionImageAndText {
+  display: flex;
+  align-items: center;
+}
+.missionImageAndText img {
+  width: 60px;
+}
+.missionLongText {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #737373;
+}
+.missionHeader {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+.copyHeroDescription {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  margin-bottom: 30px;
+}
+.copyBelowHeroCardHolder {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 33px;
+}
+.copyBelowHeroCard {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.copyBelowHeroCard img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+.copyBelowHeroCardHeader {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.copyBelowHeroCardContent {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+}
+.listHolder {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.listOf5 {
+  margin-right: 100px;
+}
+.item1 {
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 400;
+  color: rgb(31, 31, 31);
+  display: flex;
+  align-items: center;
+}
+.item1 img {
+  margin-right: 20px;
+}
+.belowHero2 {
+  background-color: #ff1e58;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.belowHero2Header {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  line-height: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 700px;
+  text-align: center;
+}
+.belowHero2Description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: white;
+  width: 700px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.belowHero2Button {
+  background-color: white;
+  border: none;
+  color: #ff1e58;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 230px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}

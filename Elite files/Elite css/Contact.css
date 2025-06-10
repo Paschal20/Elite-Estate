@@ -151,3 +151,447 @@ body {
   margin-left: 40px;
   border-color: #374151;
 }
+.contactHero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #fffaec;
+}
+.contactHeroHeader {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(31, 31, 31);
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+.contactHeroHeader span {
+  color: #ff1e58;
+}
+.contactHeroContent {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(115, 115, 115);
+  width: 800px;
+  margin-bottom: 70px;
+}
+
+.belowHero5 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 6%;
+}
+.belowHero5LeftHero {
+  width: 50%;
+  margin-bottom: 50px;
+}
+.belowHero5LeftHeroHeader {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.belowHero5LeftHeroDescription {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  margin-bottom: 30px;
+}
+
+.belowHero5OfficeHours {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffaec;
+  border-radius: 10px;
+}
+.belowHero5OfficeHoursHeader {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.belowHero5OfficeHoursDaysAndTimeHolder {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.belowHero5OfficeHoursDayAndTime {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.belowHero5Time {
+  color: #9ca3af;
+}
+.belowHero5OfficeHoursDayAndTime2 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.belowHero5Time2 {
+  color: #9ca3af;
+}
+.belowHero5Days2 {
+  margin-right: 61%;
+}
+.belowHero5Time3 {
+  color: #9ca3af;
+}
+.belowHero5OfficeHoursDayAndTime3 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.belowHero5Days3 {
+  margin-right: 55%;
+}
+.belowHero5RightHero {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffaec;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.firstNameAndLastName {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 20px;
+  width: 62%;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.firstName,
+.lastName {
+  font-size: 14px;
+}
+.emailAndPhone {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 20px;
+  width: 56%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.phone,
+.email {
+  font-size: 14px;
+}
+.belowHero5RightHeroNameAndEmailInputHolder {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.belowHero5RightHeroInput1 {
+  width: 46%;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  border-color: rgb(233, 226, 226);
+  border-style: solid;
+  border-width: 0.1px;
+}
+.belowHero5RightHeroSubjectandInputHolder {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.subject {
+  margin-bottom: 5px;
+}
+.subjectInput {
+  width: 95%;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  border-color: rgb(233, 226, 226);
+  border-style: solid;
+  border-width: 0.1px;
+  border-radius: 5px;
+}
+.belowHero5RightHeroMessageAndInputHolder {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.belowHero5RightHeroMessage {
+  margin-bottom: 10px;
+}
+.belowHero5RightHeroMessageInput {
+  width: 95%;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  border-color: rgb(233, 226, 226);
+  border-style: solid;
+  border-width: 0.1px;
+}
+
+.belowHero5RightHeroMessageInput::placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: translateY(0);
+}
+.belowHero5RightHeroButton {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #ff1e58;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+.sendMessage {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+.fillForm {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(115, 115, 115);
+  margin-left: 20px;
+}
+.property {
+  margin-left: 20px;
+  width: 56%;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  margin-left: 24px;
+}
+.propertyList {
+  width: 92.5%;
+  align-self: center;
+  border-color: rgb(235, 231, 231);
+  border-width: 0.2px;
+  border-style: solid;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.communicationAgree {
+  display: flex;
+  font-size: 13px;
+  margin-left: 20px;
+  color: #8d8f92;
+  margin-bottom: 20px;
+}
+.communicationAgree input {
+  margin-right: 10px;
+}
+
+.contactDetails {
+  display: flex;
+  margin-bottom: 40px;
+}
+.contactDetails img {
+  width: 55px px;
+  height: 50px;
+}
+.contactMethod {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.contactNumber {
+  font-size: 16px;
+  font-weight: 400;
+
+  color: rgb(115, 115, 115);
+}
+.contactDay {
+  font-size: 14px;
+  font-weight: 400;
+
+  color: rgb(115, 115, 115);
+}
+.contactDetails img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.belowHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffcf2;
+}
+.belowHeroCard img {
+  width: 70px;
+  margin: 20px;
+}
+.belowHeroText {
+  text-align: center;
+  margin-top: 50px;
+}
+.belowHeroHeader {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.belowHeroDescription {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  margin-bottom: 30px;
+}
+.belowHeroCardHolder {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-left: 33px;
+}
+.belowHeroCard {
+  border: 0.3px solid rgb(236, 236, 236);
+  background-color: white;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.belowHeroCard div {
+  margin-left: 20px;
+}
+.belowHeroCardHeader {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.belowHeroCardContent {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(115, 115, 115);
+}
+.belowHeroButton {
+  background-color: #ff3468;
+  padding: 12px 150px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.belowHeroButton2 {
+  display: flex;
+  background-color: #ffffff;
+  padding: 12px 150px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: black;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-color: rgb(224, 221, 221);
+  border-style: solid;
+  border-width: 0.2px;
+}
+.belowHeroButton3 {
+  display: flex;
+  background-color: #ffffff;
+  padding: 12px 150px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: black;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-color: rgb(224, 221, 221);
+  border-style: solid;
+  border-width: 0.2px;
+}
+.belowHeroButton:hover {
+  cursor: pointer;
+  background-color: rgb(252, 99, 137);
+}
+.servicesImage {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.belowHero2 {
+  background-color: #ff1e58;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.belowHero2Header {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  line-height: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 700px;
+  text-align: center;
+}
+.belowHero2Description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: white;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.belowHero2Button {
+  background-color: white;
+  border: none;
+  color: #ff1e58;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 230px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
